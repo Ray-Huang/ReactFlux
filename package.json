@@ -1,0 +1,18 @@
+{
+  "name": "articleCompFlux",
+  "version": "0.0.1",
+  "description": "A example of using React and Flux",
+  "author": "Ray Huang",
+  "repository": "",
+  "readme": "",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-browserify": "^0.5.0",
+    "gulp-concat": "^2.2.0",
+    "react": "^0.12.2",
+    "reactify": "^0.13.1",
+    "flux": "^2.0.1",
+    "jquery":"^1.11.3",
+    "es5-shim" : "^4"
+  }
+}

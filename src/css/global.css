@@ -1,0 +1,32 @@
+body {line-height:1; color:black; background:white; font-family:Arial,SimSun,sans-serif; font-size:62.5%; line-height:normal; text-align:center;overflow-y:scroll;}
+h1 {font-size: 2em;}
+h2 {font-size: 1.75em;}
+h3 {font-size: 1.5em;}
+h4 {font-size: 1.25em;}
+h5 {font-size: 1em;}
+
+p {font-size: 1em;}
+button {font-size: 1em;}
+input[type='text'] {width: 50%;}
+
+#content {max-width: 1200px; margin: 0 auto; padding: 10px; border: 1px solid;}
+
+.clearfix:before,
+.clearfix:after {content: "."; display: block; height: 0; visibility: hidden;}
+.clearfix:after {clear: both;}
+
+.hidden {display: none;}
+.indent {padding-left: 10px;}
+
+/* Styles for screens that are at least 768px*/
+@media only screen and (min-width: 48em){
+	h1 {font-size: 4em;}
+	h2 {font-size: 3em;}
+	h3 {font-size: 2em;}
+	h4 {font-size: 1em;}
+	
+	p {font-size: 1.4em;}
+	button {font-size: 1.4em;}
+	input[type='text'] {width: auto;}
+}
+
